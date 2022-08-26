@@ -71,3 +71,65 @@ body {
     background-color: #2c71b8;
     color: white;
  }
+
+ .menu > li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+  width: 285px;
+  text-decoration: none;
+  background-color: #2c71b8;
+  color: white;
+  line-height: 40px;
+  position: relative;
+ 
+}
+
+.submenu a {
+    display: block;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.submenu {
+  display: none;
+  background-color: #2c71b8;
+  position: absolute;
+  list-style: none;
+  width: 285px;
+  height: 315px;
+ 
+
+}
+.submenu > li {
+    height: 40px;
+  }
+
+.submenu a:hover  {
+    background-color: white;
+    color: #2c71b8;
+      }
+
+.form-search-header {
+    border: 1px solid #2c71b8;
+}
+
+.form-search-header input {
+    background-color: transparent;
+    border: none;
+}
+
+.form-search-header input:focus {
+    outline: none;
+}
+
+.form-search-header button {
+    width: 30px;
+    height: 30px;
+    background-color: #2c71b8;
+}
